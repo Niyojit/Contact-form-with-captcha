@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form with CAPTCHA</title>
+  <script src="https://kit.fontawesome.com/08c499118a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <video autoplay loop muted plays-inline class = "back-video"> 
+    <source src="video3.mp4" type="video/mp4">
+  </video>
+  <ul>
+  
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  <div class="form-container">
+    
+
+    <h2>Contact Form</h2>
+    <form id="contact-form">
+      <h3>Name</h3>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <h4>Email</h4>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <h5>Enter Message</h5>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <div class="captcha-container">
+        <span class="captcha-image" id="captcha"></span>
+        <input type="text" name="captcha" placeholder="Enter CAPTCHA" required>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="footer-basic">
+    
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/niyojit-choudhari-1819b0222/"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        
+        <p class="copyright">Niyojitchoudhari© 2023</p>
+   
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
