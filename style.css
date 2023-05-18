@@ -45,6 +45,10 @@ body{
   .captcha-image {
     display: inline-block;
     margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    font-size: 14px;
+    width: fit-content;
   }
 
   .back-video{
